@@ -28,7 +28,7 @@ void getWeatherDetails() {
 		//print this response
 	
 		
-String resBody=	res.getBody().asString();
+String resBody=	res.getBody().asPrettyString();
 System.out.println("response ===="  +resBody);
 
 
